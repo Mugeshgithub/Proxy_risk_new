@@ -57,7 +57,12 @@ Pipfile.lock
 .pyre/
 
 # Streamlit and matplotlib/plotly output
+# Ignore all PNGs except safe_report_*.png
 *.png
+!safe_report_1_fraud_score_distribution.png
+!safe_report_2_country_distribution.png
+!safe_report_3_isp_distribution.png
+
 *.jpg
 *.jpeg
 *.svg
