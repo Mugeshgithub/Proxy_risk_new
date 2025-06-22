@@ -8,8 +8,9 @@ This project analyzes proxy service risks using Python and provides interactive 
 - Streamlit dashboard for easy exploration
 - GitHub-ready codebase (large datasets excluded)
 
-## Dataset
-For a public proxy detection dataset, see:
+## About the Dataset
+This project uses a public proxy detection dataset to analyze risk profiles, geographic hotspots, and ISP trends. The dataset includes fields such as IP address, fraud score, country, ISP, and threat type. You can obtain a similar dataset from the Snowflake Marketplace:
+
 [IP2Location IP2Proxy LITE Public Proxy Detection Database on Snowflake Marketplace](https://app.snowflake.com/marketplace/listing/GZTSZ3VACRT/ip2location-ip2proxy-lite-public-proxy-detection-database?search=proxy)
 
 ## Streamlit Dashboard & Insights
